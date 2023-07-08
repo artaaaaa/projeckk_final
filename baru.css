@@ -203,7 +203,11 @@ input[type=submit] {
     width: 40%;
 }
 
-
-
-
-
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .tm-form1,
+    .tm-form2 {
+        max-width: 90%;
+        width: 90%;
+    }
+}
