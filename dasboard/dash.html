@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dsh.css">
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>Mutiara</h1>
+        </div>
+        <ul>
+            <li> <img src="./foto/dashboard.png" alt="">&nbsp;<span>Dashboard</span></li>
+            <li><img src="foto/icons8-queue-50.png" alt=""><span>Costumer</span></li>
+            <li><img src="foto/icons8-order-30.png" alt=""><span style="margin-left: 20px;">Order</span></li>
+            <li><img src="foto/icons8-bookmark-48.png" alt=""><span>Corousel</span></li>
+            <a href="/Bootstrap Login/login.html">
+                <li><img src="./foto/logout.png" alt=""><span>Logout</span></li>
+            </a>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="foto/icons8-search-50.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn">add new</a>
+                    <img src="foto/notifications.png" alt="">
+                    <div class="img-case">
+                        <img src="foto/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>30</h1>
+                        <h3>Costumer</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="foto/icons8-costumer-64.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>100</h1>
+                        <h3>Ketersediaan Kamar</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="foto/icons8-bedroom-interior-50.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>40</h1>
+                        <h3>Booking</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="foto/icons8-ecommerce-64.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>20,000,000</h1>
+                        <h3>Income</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="foto/income.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+                <div class="content-2">
+                    <div class="recent-payment">
+                        <div class="title">
+                            <h2>Recent Order</h2>
+                        <a href="#" class="btn">view All</a>
+                        </div>
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Alamat</th>
+                                <th>Jumalah</th>
+                                <th>Chek-in</th>
+                            </tr>
+                            <tr>
+                                <td>Budi</td>
+                                <td>1.500.000</td>
+                                <td>Lhokseumawe</td>
+                                <td><button id="yesButton">Yes</button>
+                                    <button id="noButton">No</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Agus</td>
+                                <td>2.000.000</td>
+                                <td>Lhoksukon</td>
+                                <td><button id="yesButton">Yes</button>
+                                    <button id="noButton">No</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Arta</td>
+                                <td>1.900.000</td>
+                                <td>Banda Aceh</td>
+                                <td><button id="yesButton">Yes</button>
+                                    <button id="noButton">No</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Haikal</td>
+                                <td>1.500.000</td>
+                                <td>Bierun</td>
+                                <td><button id="yesButton">Yes</button>
+                                    <button id="noButton">No</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="dsh.js"></script>
+</html>

@@ -1,0 +1,87 @@
+
+nav {
+    background-color: #27374D;
+}
+
+body {
+    background-color: #526D82;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Fasilitas */
+
+.room-facilities {
+    font-size: 16px;
+}
+
+.room-facilities h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facility {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.facility i {
+    margin-right: 5px;
+}
+
+.facility span {
+    margin-left: 5px;
+}
+
+.facility i,
+.facility span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Button */
+.card-body {
+    position: relative;
+}
+
+.mb-3 {
+    background-color: #9DB2BF;
+}
+
+.noir {
+    float: right;
+    position: relative;
+    top: 47px;
+}
+
+
+
+.total {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .total {
+        justify-content: center;
+    }
+  
+    .noir {
+        float: none;
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
